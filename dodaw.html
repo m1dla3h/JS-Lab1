@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>TODO supply a title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Ro boto:wght@100;300&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="input.css" type="text/css" />
+<script type="text/javascript" src="funct.js"></script>
+</script>
+</head>
+
+<body>
+<table class="center">
+<tr>
+<td>
+<div id="tresc">
+<div id="tytul">
+<h4>calc</h4>
+</div>
+<div id="lewa">
+
+<div class="wiersz">Liczba 1:</div>
+<div class="wiersz">Liczba 2:</div>
+<div class="wiersz">
+    <div class="button">
+        <button onclick="sum()">+</button>
+        <button onclick="division()">-</button>
+        <button onclick="multiply()">*</button>
+        <button onclick="divide()">/</button>
+    </div>
+    </div>
+</div>
+
+<div id='prawa'>
+<div class="wiersz"><input id="liczba1"></div>
+<div class="wiersz"><input id="liczba2"></div>
+<div class="wiersz">
+    <input id="suma" disabled="disabled" value="">
+</div>
+</div>
+</div>
+</td>
+<td>
+<div id="tresc1">
+    <div id="tytul">
+    <h4>Pozyczka - obliczenie raty</h4>
+    </div>
+    <div id="lewa">
+    
+    <div class="wiersz">Kwota pozyczki:</div>
+    <div class="wiersz">Liczba rat:</div>
+    <div class="wiersz">Oprocentowanie roczne:</div>
+    <div class="wiersz">
+        <div class="wiersz"><button onclick="oblicz()">Oblicz: </button></div>
+        </div>
+    <div class="wiersz">Rata miesieczna:</div>
+    <div class="wiersz">Kwota z odstekami:</div>
+    </div>
+    
+    <div id='prawa'>
+    <div class="wiersz"><input id="kwota"></div>
+    <div class="wiersz"><input id="rat"></div>
+    <div class="wiersz">
+        <input id="suma" disabled="oprocent" value="">
+    </div>
+    </div>
+    </div>
+</td>
+</tr>
+</table>
+</body>
+
+</html>

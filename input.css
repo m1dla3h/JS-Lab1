@@ -1,0 +1,36 @@
+#tresc {
+    background-color: rgb(182, 211, 227); height: 170px;
+    font-family: 'Lato'; width: 230px; margin: auto;
+    }
+    #tytul {
+    background-color: rgb(233, 183, 56); height: 50px;
+    padding: 5px 5px 5px 5px;
+    }
+    h4 {
+    text-align: center;
+    }
+    #lewa {
+    padding: 15px 5px 5px 5px; float: left;
+    }
+    #prawa {
+    padding: 15px 5px 5px 5px; float: left;
+    }
+    .wiersz {
+    height: 25px;
+    }
+    .button {
+    height: 25px; 
+    }
+    input {
+    width: 100px; text-align: left;
+    }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
+  #tresc1 {
+    background-color: rgb(182, 211, 227); height: 230px;
+    width: 500px;
+    font-family: 'Lato'; width: 230px; margin: auto;}
